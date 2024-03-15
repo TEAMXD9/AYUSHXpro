@@ -38,9 +38,9 @@ async def init():
         importlib.import_module("AYUSHMUSIC.plugins" + all_module)
     LOGGER("AYUSHMUSIC.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
     await userbot.start()
-    await DAXX.start()
+    await AYUSH.start()
     try:
-        await DAXX.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await AYUSH.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
         LOGGER("DAXXMUSIC").error(
             "𝗣𝗹𝗭 𝗦𝗧𝗔𝗥𝗧 𝗬𝗢𝗨𝗥 𝗟𝗢𝗚 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\n𓆩𝐀𝐘𝐔𝐒𝐇🪽 𝗫 𝗣𝗥𝗢 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣........"
