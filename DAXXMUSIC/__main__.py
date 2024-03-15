@@ -5,11 +5,11 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from DAXXMUSIC import LOGGER, app, userbot
-from DAXXMUSIC.core.call import DAXX
-from DAXXMUSIC.misc import sudo
-from DAXXMUSIC.plugins import ALL_MODULES
-from DAXXMUSIC.utils.database import get_banned_users, get_gbanned
+from AYUSHMUSIC import LOGGER, app, userbot
+from AYUSHMUSIC.core.call import DAXX
+from AYUSHMUSIC.misc import sudo
+from AYUSHMUSIC.plugins import ALL_MODULES
+from AYUSHMUSIC.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
 
@@ -36,7 +36,7 @@ async def init():
     await app.start()
     for all_module in ALL_MODULES:
         importlib.import_module("AYUSHMUSIC.plugins" + all_module)
-    LOGGER("DAXXMUSIC.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
+    LOGGER("AYUSHMUSIC.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
     await userbot.start()
     await DAXX.start()
     try:
@@ -48,14 +48,14 @@ async def init():
         exit()
     except:
         pass
-    await DAXX.decorators()
-    LOGGER("DAXXMUSIC").info(
+    await AYUSH.decorators()
+    LOGGER("AYUSHMUSIC").info(
         "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𓆩𝐀𝐘𝐔𝐒𝐇🪽 𝗫 𝗣𝗥𝗢☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("DAXXMUSIC").info("𝗦𝗧𝗢𝗣 𓆩𝐀𝐘𝐔𝐒𝐇🪽 𝗫𝗗 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
+    LOGGER("AYUSHMUSIC").info("𝗦𝗧𝗢𝗣 𓆩𝐀𝐘𝐔𝐒𝐇🪽 𝗫𝗗 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
 
 
 if __name__ == "__main__":
