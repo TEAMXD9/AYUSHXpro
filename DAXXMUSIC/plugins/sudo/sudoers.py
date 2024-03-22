@@ -54,7 +54,7 @@ async def sudoers_list(client, message: Message):
     reply_markups = InlineKeyboardMarkup(keyboard)
   
     #await message.reply_photo(photo="https://telegra.ph/file/3363bac395e03f50ce715.mp4", caption="**» ᴄʜᴇᴄᴋ sᴜᴅᴏ ʟɪsᴛ ʙʏ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ.**\n\n**» ɴᴏᴛᴇ:**  ᴏɴʟʏ sᴜᴅᴏ ᴜsᴇʀs ᴄᴀɴ ᴠɪᴇᴡ. ", reply_markup=reply_markups)
-    await message.reply_video(video="https://telegra.ph/file/aa6c9346a4491ce97276b.jpg", caption="**» ᴄʜᴇᴄᴋ sᴜᴅᴏ ʟɪsᴛ ʙʏ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ.**\n\n**» ɴᴏᴛᴇ:**  ᴏɴʟʏ sᴜᴅᴏ ᴜsᴇʀs ᴄᴀɴ ᴠɪᴇᴡ. \n│ \n└» ᴍᴀᴅᴇ ʙʏ ᴀʏᴜ^xᴅ 𓆩🇮🇳𓆪 ", reply_markup=reply_markups)
+    await message.reply_video(video="https://telegra.ph/file/3363bac395e03f50ce715.mp4", caption="**» ᴄʜᴇᴄᴋ sᴜᴅᴏ ʟɪsᴛ ʙʏ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ.**\n\n**» ɴᴏᴛᴇ:**  ᴏɴʟʏ sᴜᴅᴏ ᴜsᴇʀs ᴄᴀɴ ᴠɪᴇᴡ. \n│ \n└» ᴍᴀᴅᴇ ʙʏ ᴀʏᴜ^xᴅ 𓆩🇮🇳𓆪 ", reply_markup=reply_markups)
     
 
 @app.on_callback_query(filters.regex("^check_sudo_list$"))
